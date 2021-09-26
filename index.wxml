@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<image src="/image/caipiao.png" style="width: 750rpx; height: 256rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+<view class="box">
+  <view class="title">彩票生成器</view>
+  <view>生成的彩票序列：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+</view>
+<view class="context">
+		<view class="item" style="background-color: {{color1}};">{{a}}</view>
+		<view class="item" style="background-color: {{color2}};">{{b}}</view>
+		<view class="item" style="background-color: {{color3}};">{{c}}</view>
+		<view class="item" style="background-color: {{color4}};">{{d}}</view>
+		<view class="item" style="background-color: {{color5}};">{{e}}</view>
+		<view class="item" style="background-color: {{color6}};">{{f}}</view>
+		<view class="item" style="background-color: {{color7}};">{{g}}</view>
+</view>
+==================================
+<button type="primary" bindtap="newRand">生成新的彩票号码</button>
+<view class="title">冯晓蕾电科19-1-05</view>

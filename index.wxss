@@ -1,0 +1,25 @@
+/**index.wxss**/
+.box{
+  margin: 20rpx;
+  padding: 20rpx;
+  border: 3px dashed rgb(248, 72, 2);
+  background-color: rgba(110, 144, 216, 0);
+}
+.title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgb(59, 15, 252);
+}
+.context{
+  display: flex;
+  text-align: center;
+  line-height: 100rpx;
+  font-weight: bolder;
+  color: rgb(28, 3, 56);
+}
+.item{
+  flex-grow: 1;
+  
+  border-radius: 50px; 
+}
